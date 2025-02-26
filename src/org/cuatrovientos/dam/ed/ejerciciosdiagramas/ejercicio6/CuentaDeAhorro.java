@@ -5,9 +5,8 @@ public class CuentaDeAhorro {
 	private CuentaBancariaOrdinaria cuenta;
 	private double interes;
 	
-	public CuentaDeAhorro(CuentaBancariaOrdinaria cuenta) {
+	public CuentaDeAhorro() {
 		super();
-		this.cuenta = cuenta;
 		this.interes = 0.05;
 	}
 

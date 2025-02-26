@@ -6,6 +6,11 @@ public class CuentaBancariaOrdinaria {
 	private String titular;
 	private double saldo;
 	
+	
+	public CuentaBancariaOrdinaria() {
+		super();
+	}
+
 	public double getSaldo() {
 		return saldo;
 	}

@@ -6,10 +6,9 @@ public class CuentaCorriente {
 	private double limiteDescubierto;
 	
 	
-	public CuentaCorriente(CuentaBancariaOrdinaria cuenta, double limiteDescubierto) {
+	public CuentaCorriente() {
 		super();
-		this.cuenta = cuenta;
-		this.limiteDescubierto = limiteDescubierto;
+		this.limiteDescubierto = 1000;
 	}
 
 	public String retirarDinero(double cantidad) {
